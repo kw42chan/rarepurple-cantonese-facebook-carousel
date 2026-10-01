@@ -1,36 +1,53 @@
 # RarePurple visual system
 
-## Direction
+## Direction and precedence
 
-Premium, cinematic, editorial 3D advertising for social media. The visual should feel like a polished AI product campaign: dramatic but clean, expressive but not childish. When a user supplies a visual reference, match its lettering and composition as closely as its palette; a purple background and generic bold font alone are not a match.
+Use the reference-derived soft lavender, deep-purple, warm-gold, and ivory promotional system as the default. The campaign should feel approachable, polished, educational, and product-focused. This specification supersedes the former dark-purple cinematic theme, white/gold dimensional headlines, dramatic lighting, and compulsory cartoon workplace scenes. A user's supplied reference or explicit design request takes precedence.
 
-## Palette
+The three analysed reference pages establish three complementary layouts: instructional progression cards with an optional office-worker character; a central product hero with overlapping lifestyle photo prints; and stacked benefit panels with a CTA and product bundle. Generalise their design, not their particular claims, wording, or people.
 
-- 70% deep royal purple / dark violet background.
-- 20% warm white or cream information surfaces and type.
-- 8% metallic warm gold accents.
-- 2% functional accents such as amber, green, or red status markers.
+## Palette and surface
 
-Use subtle mottled texture, paper grain, restrained gold dust or brush texture, soft vignette, and cinematic rim lighting. Avoid flat pale purple, pastel palettes, neon cyberpunk, or generic template styling.
+Approximate colours estimated visually from the raster references, not exact measured brand swatches:
 
-## Typography and layout
+- Pale lavender-grey background: #C3C4DA, with gentle cloudy tonal variation or fine paper-like texture.
+- Deep royal purple: #302064 for primary headlines, supporting copy, branding, and buttons.
+- Warm ochre gold: #BE9446 for secondary emphasis, thin borders, arrows, and fine dividers.
+- Warm ivory: #F8F5EA for information panels and packaging-related surfaces.
 
-### Display-lettering specification
+Keep the lavender surface dominant and low contrast. Avoid rigid percentage allocations. Purple should anchor the text rather than fill the entire background. Use restrained mottled printed-gold texture where appropriate; strong metallic shine, gold dust, sparkles, neon status accents, dramatic vignettes, and cinematic rim lighting are not default treatments.
 
-- The reference uses custom-looking, extra-black Traditional Chinese display lettering, not ordinary clean sans-serif text. Do not claim an exact font family from the raster reference. Start with a heavy Traditional Chinese / Hong Kong Gothic face (for example Noto Sans HK Black or Source Han Sans HC Heavy, if available), then shape the headline to match the reference: broad block strokes, angular or brush-cut terminals, slightly irregular edges, and open, legible counters. A font substitute without this custom treatment is not sufficient.
-- For Latin words and numerals in the headline, use an equally heavy condensed sans-serif treatment (Anton/Impact-like). Match the Chinese headline's visual weight and baseline rather than allowing English to look thin or detached.
-- Set the main hook as the dominant graphic element. On a portrait 4:5 page, it may fill roughly the upper quarter to third and nearly the full safe width. Prefer two tightly stacked semantic lines when the copy allows: warm-white/cream first line and metallic-gold second line. Preserve the supplied words, punctuation, English casing, and reading order; do not force an unnatural line break just to imitate the example.
-- Make headline strokes look dimensional: subtle warm-white paper grain on the light line; restrained warm-gold metallic gradient and fine grain on the gold line; a short, dark-purple offset extrusion or hard shadow for separation. Avoid flat yellow, chrome shine, thick black outlines, soft blurry shadows, or effects that close up Chinese glyphs.
-- Tighten line spacing and tracking enough for a compact poster-like headline, while keeping every character and punctuation mark distinct. Keep the baseline stable and the title clearly separated from the character's head and scene objects. Do not stretch glyphs disproportionately or overlap strokes.
-- Secondary copy sits directly below the hook as a bold white Traditional Chinese block, clearly smaller but still readable on a phone. Use short left-aligned lines, strong contrast, and deliberate breaks at natural Cantonese phrases. Avoid thin captions, overly small body text, and large empty gaps between the hook and explanation.
-- A small centered dark-purple badge with a fine gold border may sit above the title when the page calls for AI 拍拍機 branding. Use a restrained gold brush-stroke underline or glint to support the headline; these details must not compete with the wording. Keep a bottom dark-purple/gold CTA strip only where the page brief calls for it.
+## Typography
 
-### Composition and consistency
+- Use oversized, extra-heavy, compact sans-serif headlines. Traditional Chinese display characters have thick block-like strokes, a near-square silhouette, tight spacing, and occasional angular or irregular stroke cuts. Preserve open counters and legibility; do not force brush distress onto every character.
+- Use an equally heavy compact sans-serif for English and numerals, matching the Chinese visual weight. Do not identify an exact font from a raster image. A heavy Traditional Chinese/Hong Kong Gothic face and a heavy Latin sans-serif are starting points, not proven font identities.
+- Primary headlines are predominantly solid deep purple. A second semantic line or key emphasis may use warm ochre gold with subtle mottled printed-ink texture. Do not force every headline into two lines or colour splits.
+- Keep headline baselines predominantly upright and stable. Tilt, deep extrusion, hard shadows, white headline fills, and shiny metallic gradients are not defaults; use them only when an explicit brief or new reference calls for them.
+- Supporting copy uses simpler bold purple Traditional Chinese sans-serif, clearly smaller than the headline but readable on a phone. Centre it in cards and use natural left alignment for explanatory blocks when the composition calls for it.
+- Website addresses, small labels, and page numbers use plain sans-serif.
+- Preserve supplied Traditional Chinese wording, punctuation, English casing, percentages, and reading order. Use natural phrase breaks and compact spacing without distorting glyphs or merging strokes.
 
-- Use about 5% safe margins, one dominant idea per page, and a strong hierarchy: badge (if applicable) → oversized hook → bold supporting line → cartoon workplace scene → CTA (if applicable).
-- Keep the headline treatment consistent across the carousel, but vary the line break and type size to fit each page's exact copy. Never shrink the hook into an ordinary text box or let the scene swallow the text.
-- Use badges, cards, arrows, checklists, comparison panels, and CTA strips only as needed. The expressive cartoon workplace character and props support the copy; they must not cover, distort, or replace it.
+## Composition and components
 
-## Generation guardrails
+Use a portrait 4:5 format unless the user specifies another size. The shared hierarchy is oversized headline at the top → concise explanation or benefit cards in the middle → product or human imagery below → discreet brand footer when supplied. Keep practical safe margins, roughly 4–5%, adjusted to the reference and text length.
 
-Keep the same palette, lighting logic, rendering quality, and headline treatment on every page. Treat a supplied image as a visual reference for letterform, size, texture, hierarchy, and spacing—not as evidence of a specific font file. If an image model cannot reliably typeset exact Traditional Chinese, generate the scene without text and add the supplied copy in a separate layout pass. Verify each finished page at both full size and phone/contact-sheet size against the reference: Chinese glyphs, punctuation, English casing, headline scale, white/gold material, line spacing, safe margins, and absence of cropping or overlaps. Do not add logos, claims, interface elements, or decorative objects not requested by the page prompt.
+Choose the page arrangement that supports its purpose:
+
+- Instructional progression: three equal ivory cards connected by thin gold arrows, with short purple headings and supporting labels. An optional character or product cutout can anchor the lower area.
+- Product hero: a large central packshot with a soft grounding shadow, followed by overlapping, slightly rotated lifestyle photographs with clean white borders.
+- Benefits and conversion: stacked ivory panels, each with a fine gold outline, modest rounded corners, centred purple heading, and short explanation; then a rounded purple CTA and product bundle or photo below.
+- Narrative and comparison pages: adapt the same background, typography, panels, and soft image treatment to the existing story. Use one clear visual idea per page.
+
+Rounded purple pill badges or CTA buttons may use a fine gold border. Use thin gold divider lines and a small website footer or page number only when provided by the brief. The reference's “Order Now” button and website are examples of treatment, not permission to replace the user's CTA or invent a destination.
+
+## Image treatment
+
+Use softly shadowed product cutouts, real lifestyle photographs in white photo-print borders, or premium expressive 3D office-worker artwork according to the page brief and available assets. A cartoon protagonist is optional; product and photo pages do not need one.
+
+Prefer soft diffuse studio or office lighting and convincing product materials. Reserve rotation for photo prints rather than headlines. Maintain the same character identity across pages where a recurring character is used, and keep text clear of hair, faces, products, and photo edges. Use supplied product assets and photographs when available; do not invent product labels, logos, testimonials, or claims.
+
+## Generation and verification
+
+Keep the palette, typography hierarchy, panel styling, and soft lighting consistent while varying the page composition. Treat supplied references as evidence for letterforms, scale, spacing, surfaces, and composition, not as proof of an exact font file.
+
+If image generation cannot reliably render exact Traditional Chinese, generate artwork without text and typeset the supplied copy separately. Inspect every finished page at full size and phone/contact-sheet size: glyphs, punctuation, English casing, headline scale, purple/gold contrast, upright baseline, card borders, margins, cropping, and text/image overlap. Confirm the requested dimensions and page order. Add no unrequested wording, logos, claims, or decorative objects.
