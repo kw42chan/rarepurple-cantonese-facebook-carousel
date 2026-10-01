@@ -8,4 +8,4 @@ Exact artwork text:
 - After: 「{AFTER_STATE}」
 - Takeaway: 「{TAKEAWAY}」
 
-Use two separated panels: left cluttered and stressful, right structured and calm while staying purple/gold. Show the same character in matching poses. Do not invent quantitative results.
+Use two separated ivory panels with fine gold outlines and purple headings: left cluttered and stressful, right structured and calm. Keep the pale lavender-grey background and upright purple/gold typography from references/visual-system.md. If a recurring character is included, show the same identity in comparable poses; otherwise use relevant objects or supplied photos. Do not invent quantitative results.
