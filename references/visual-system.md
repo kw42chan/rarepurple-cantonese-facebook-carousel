@@ -40,6 +40,17 @@ Choose the page arrangement that supports its purpose:
 
 Rounded purple pill badges or CTA buttons may use a fine gold border. Use thin gold divider lines and a small website footer or page number only when provided by the brief. The reference's “Order Now” button and website are examples of treatment, not permission to replace the user's CTA or invent a destination.
 
+## Three-page daily-learning layout
+
+Use this preset when recreating or extending the approved three-page daily AI learning carousel. It is a reusable variant, not a requirement to put the same content or character on every future carousel.
+
+- Page 1: a plain pale lavender background with no character, cube box, desk, laptop, or other scene objects. Use an upright extra-heavy purple/gold headline with all lines sharing one left edge. The approved default is the 70% version: the headline block occupies approximately 70% of the page height, with generous surrounding whitespace. Keep the small brand badge centred above and the divider/page number at the bottom. Preserve exact wording and natural line breaks.
+- Occupancy means the headline block's vertical extent relative to the full canvas, not the amount of coloured ink or a percentage of font size. For later size changes, retain the requested percentage and alignment independently: “70% left aligned” must start from the 70% layout, not a smaller 50% variant. Preserve the badge and footer position when resizing the headline.
+- Page 2: place the recurring 3D office worker in the main illustration area in place of the cube-box hero. Keep the headline and the ivory gold-bordered product/system panels clear of the character. Retain the same character identity, purple/gold type, soft lighting, and the product-to-self-study progression.
+- Page 3: use the relevant product image, a genuine supplied or captured self-study-base screenshot, and the requested CTA. Never fabricate a screenshot. If the real screenshot is unavailable, label the deliverable as a draft and disclose the missing asset.
+
+New explicit user directions override this preset.
+
 ## Image treatment
 
 Use softly shadowed product cutouts, real lifestyle photographs in white photo-print borders, or premium expressive 3D office-worker artwork according to the page brief and available assets. A cartoon protagonist is optional; product and photo pages do not need one.

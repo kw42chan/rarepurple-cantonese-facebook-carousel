@@ -20,7 +20,7 @@ Use [visual-system.md](references/visual-system.md) as the current default: pale
 ## Workflow
 
 1. Select one source use case and preserve its scenario, benefits, prompt, and product card name.
-2. Build a coherent 6–7 page story: cover hook, pain point, consequence, AI solution, before/after, emotional payoff, and CTA. A 6-page version may merge the consequence and pain-point pages.
+2. Follow a supplied page count and storyboard, including the three-page daily-learning layout in [visual-system.md](references/visual-system.md). Otherwise build a coherent 6–7 page story: cover hook, pain point, consequence, AI solution, before/after, emotional payoff, and CTA. A 6-page version may merge the consequence and pain-point pages.
 3. Read the relevant references before drafting: [visual-system.md](references/visual-system.md), [character-system.md](references/character-system.md), [carousel-structure.md](references/carousel-structure.md), and [facebook-caption.md](references/facebook-caption.md).
 4. Produce one page-by-page image prompt for every page. Each prompt must state purpose, exact artwork text, character state (if used), environment, objects, composition, typography, and visual system. Keep artwork text short and mobile-readable; do not rely on image generation to render long paragraphs accurately.
 5. Produce the Facebook caption, hashtags, and a low-friction comment-driving question.
@@ -29,7 +29,7 @@ Use [visual-system.md](references/visual-system.md) as the current default: pale
 
 ## Output
 
-Return, in order: selected use case, 6–7 page storyline, page prompts, Facebook caption, hashtags, and comment question. For source-driven work, state which source fields were retained. Do not silently change the use case.
+Return, in order: selected use case, storyline at the requested page count (otherwise 6–7 pages), page prompts, Facebook caption, hashtags, and comment question. For source-driven work, state which source fields were retained. Do not silently change the use case.
 
 ## Prompt routing
 
